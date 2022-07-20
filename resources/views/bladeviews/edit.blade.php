@@ -12,12 +12,9 @@
         <div class="row">
             <div class="col-lg-12 margin-tb">
                 <div class="pull-left">
-                    <h2>Edit Company</h2>
+                    <h2>Sửa</h2>
                 </div>
-                <div class="pull-right">
-                    <a class="btn btn-primary" href="{{ route('companies.index') }}" enctype="multipart/form-data">
-                        Back</a>
-                </div>
+
             </div>
         </div>
         @if (session('status'))
@@ -31,7 +28,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="form-group">
-                        <strong>Company Name:</strong>
+                        <strong>Tên:</strong>
                         <input type="text" name="name" value="{{ $company->name }}" class="form-control"
                             placeholder="Company name">
                         @error('name')
@@ -41,8 +38,8 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="form-group">
-                        <strong>Company Email:</strong>
-                        <input type="email" name="email" class="form-control" placeholder="Company Email"
+                        <strong>E-mail:</strong>
+                        <input type="email" name="email" class="form-control" placeholder="E-mail"
                             value="{{ $company->email }}">
                         @error('email')
                             <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
@@ -51,16 +48,21 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="form-group">
-                        <strong>Company Address:</strong>
+                        <strong>Địa Chỉ:</strong>
                         <input type="text" name="address" value="{{ $company->address }}" class="form-control"
-                            placeholder="Company Address">
+                            placeholder="Địa Chỉ">
                         @error('address')
                             <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
                         @enderror
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary ml-3">Submit</button>
+                <button type="submit" class="btn btn-primary ml-3">Gửi</button>
+                <div class="pull-right">
+                    <a class="btn btn-primary" href="{{ route('companies.index') }}" enctype="multipart/form-data">
+                        Quay Lại</a>
+                </div>
             </div>
+
         </form>
     </div>
 </body>

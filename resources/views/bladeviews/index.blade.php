@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Laravel 8 CRUD Tutorial From Scratch</title>
+    <title>Trang Admin</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
@@ -12,10 +12,10 @@
         <div class="row">
             <div class="col-lg-12 margin-tb">
                 <div class="pull-left">
-                    <h2>Laravel 8 CRUD Example Tutorial</h2>
+                    <h2>Quản Lí</h2>
                 </div>
                 <div class="pull-right mb-2">
-                    <a class="btn btn-success" href="{{ route('companies.create') }}"> Create Company</a>
+                    <a class="btn btn-success" href="{{ route('companies.create') }}"> Thêm</a>
                 </div>
             </div>
         </div>
@@ -26,11 +26,11 @@
         @endif
         <table class="table table-bordered">
             <tr>
-                <th>S.No</th>
-                <th>Company Name</th>
-                <th>Company Email</th>
-                <th>Company Address</th>
-                <th width="280px">Action</th>
+                <th>STT</th>
+                <th>Tên</th>
+                <th>E-mail</th>
+                <th>Địa Chỉ</th>
+                <th width="150px">Tùy Chọn</th>
             </tr>
             @foreach ($companies as $company)
                 <tr>
@@ -40,10 +40,10 @@
                     <td>{{ $company->address }}</td>
                     <td>
                         <form action="{{ route('companies.destroy', $company->id) }}" method="Post">
-                            <a class="btn btn-primary" href="{{ route('companies.edit', $company->id) }}">Edit</a>
+                            <a class="btn btn-primary" href="{{ route('companies.edit', $company->id) }}">Sửa</a>
                             @csrf
                             @method('DELETE')
-                            <button type="submit" class="btn btn-danger">Delete</button>
+                            <button type="submit" class="btn btn-danger">Xóa</button>
                         </form>
                     </td>
                 </tr>

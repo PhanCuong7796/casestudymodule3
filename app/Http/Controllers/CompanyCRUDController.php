@@ -109,6 +109,6 @@ class CompanyCRUDController extends Controller
         $company->delete();
 
         return redirect()->route('companies.index')
-            ->with('success', 'Company has been deleted successfully');
+            ->with('success', 'Đã xóa thành công !');
     }
 }
