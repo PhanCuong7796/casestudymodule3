@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CompanyCRUDController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 // Route::get('dashboard', function () {
 //     return view('dashboard');
 // });
-Route::get('index', function () {
+Route::get('dashboard', function () {
     return view('dashboard');
 });
+Route::resource('companies', CompanyCRUDController::class);
