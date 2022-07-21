@@ -21,26 +21,26 @@
             <li>
                 <a href="index.html">
                     <i class="ti-home"></i>
-                    <span> Dashboard </span>
+                    <span> Bảng Điều Khiển </span>
                 </a>
             </li>
 
-            <li>
+            {{--  <li>
                 <a href="ui-elements.html">
                     <i class="ti-paint-bucket"></i>
-                    <span> UI Elements </span>
+                    <span> Quản Lí Sản Phẩm </span>
                     <span class="badge badge-primary float-right">11</span>
                 </a>
-            </li>
+            </li>  --}}
 
             <li>
                 <a href="javascript: void(0);">
                     <i class="ti-light-bulb"></i>
-                    <span> Components </span>
+                    <span> Quản Lí Sản Phẩm </span>
                     <span class="menu-arrow"></span>
                 </a>
                 <ul class="nav-second-level" aria-expanded="false">
-                    <li><a href="components-range-slider.html">Range Slider</a></li>
+                    <li><a href="components-range-slider.html">Chi Tiết Sản Phẩm</a></li>
                     <li><a href="components-alerts.html">Alerts</a></li>
                     <li><a href="components-icons.html">Icons</a></li>
                     <li><a href="components-widgets.html">Widgets</a></li>

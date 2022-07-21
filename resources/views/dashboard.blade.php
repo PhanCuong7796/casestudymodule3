@@ -60,7 +60,7 @@
         </div>
         <!--end row -->
 
-        <div class="row">
+        {{--  <div class="row">
             <div class="col-lg-6">
                 <div class="card-box">
                     <h5 class="mt-0 font-14">Total Revenue</h5>
@@ -79,10 +79,10 @@
                     <div id="dashboard-bar-stacked" class="morris-chart" dir="ltr"
                         style="height: 300px;"></div>
                 </div>
-            </div>
+            </div>  --}}
             <!-- end col -->
 
-            <div class="col-lg-6">
+            {{--  <div class="col-lg-6">
                 <div class="card-box">
                     <h5 class="mt-0 font-14">Sales Analytics</h5>
                     <div class="text-center">
@@ -100,7 +100,7 @@
                     <div id="dashboard-line-chart" class="morris-chart" dir="ltr"
                         style="height: 300px;"></div>
                 </div>
-            </div>
+            </div>  --}}
             <!-- end col -->
         </div>
         <!-- end row -->
@@ -327,7 +327,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    2017 - 2020 &copy; Simple theme by <a href="">Coderthemes</a>
+                    &copy;Bản Quyền Thuộc Về <a href="https://www.facebook.com/Macrus.Phan/">Cường Bear</a>
                 </div>
             </div>
         </div>
