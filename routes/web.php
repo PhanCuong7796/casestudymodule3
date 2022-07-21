@@ -14,10 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('dashboard', function () {
-//     return view('dashboard');
-// });
 Route::get('dashboard', function () {
     return view('dashboard');
 });
 Route::resource('companies', CompanyCRUDController::class);
+Route::get('formtable', function () {
+    return view('formtable');
+});

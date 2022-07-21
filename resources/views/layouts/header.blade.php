@@ -2,34 +2,41 @@
     <ul class="list-unstyled topnav-menu float-right mb-0">
 
         <li class="dropdown d-none d-lg-block">
-            <a class="nav-link dropdown-toggle mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                <img src="assets\images\flags\us.jpg" alt="user-image" class="mr-2" height="12"> <span class="align-middle">English <i class="mdi mdi-chevron-down"></i> </span>
+            <a class="nav-link dropdown-toggle mr-0" data-toggle="dropdown" href="#" role="button"
+                aria-haspopup="false" aria-expanded="false">
+                <img src="assets\images\flags\us.jpg" alt="user-image" class="mr-2" height="12"> <span
+                    class="align-middle">English <i class="mdi mdi-chevron-down"></i> </span>
             </a>
             <div class="dropdown-menu dropdown-menu-right">
-                 <!-- item-->
-                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                        <img src="assets\images\flags\spain.jpg" alt="user-image" class="mr-2" height="12"> <span class="align-middle">Spanish</span>
-                 </a>
-
-                 <!-- item-->
-                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                        <img src="assets\images\flags\italy.jpg" alt="user-image" class="mr-2" height="12"> <span class="align-middle">Italian</span>
-                 </a>
-
                 <!-- item-->
                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                    <img src="assets\images\flags\french.jpg" alt="user-image" class="mr-2" height="12"> <span class="align-middle">French</span>
+                    <img src="assets\images\flags\spain.jpg" alt="user-image" class="mr-2" height="12"> <span
+                        class="align-middle">Spanish</span>
                 </a>
 
                 <!-- item-->
                 <a href="javascript:void(0);" class="dropdown-item notify-item">
-                    <img src="assets\images\flags\russia.jpg" alt="user-image" class="mr-2" height="12"> <span class="align-middle">Russian</span>
+                    <img src="assets\images\flags\italy.jpg" alt="user-image" class="mr-2" height="12"> <span
+                        class="align-middle">Italian</span>
+                </a>
+
+                <!-- item-->
+                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                    <img src="assets\images\flags\french.jpg" alt="user-image" class="mr-2" height="12"> <span
+                        class="align-middle">French</span>
+                </a>
+
+                <!-- item-->
+                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                    <img src="assets\images\flags\russia.jpg" alt="user-image" class="mr-2" height="12"> <span
+                        class="align-middle">Russian</span>
                 </a>
             </div>
         </li>
 
         <li class="dropdown notification-list">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                aria-haspopup="false" aria-expanded="false">
                 <i class="mdi mdi-bell noti-icon"></i>
                 <span class="badge badge-danger rounded-circle noti-icon-badge">4</span>
             </a>
@@ -48,39 +55,42 @@
 
                 <div class="slimscroll noti-scroll">
 
-                     <!-- item-->
-                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                            <div class="notify-icon bg-success"><i class="mdi mdi-comment-account-outline"></i></div>
-                            <p class="notify-details">Caleb Flakelar commented on Admin<small class="text-muted">1 min ago</small></p>
-                        </a>
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                        <div class="notify-icon bg-success"><i class="mdi mdi-comment-account-outline"></i></div>
+                        <p class="notify-details">Caleb Flakelar commented on Admin<small class="text-muted">1 min
+                                ago</small></p>
+                    </a>
 
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item notify-item">
-                            <div class="notify-icon bg-info"><i class="mdi mdi-account-plus"></i></div>
-                            <p class="notify-details">New user registered.<small class="text-muted">5 hours ago</small></p>
-                        </a>
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                        <div class="notify-icon bg-info"><i class="mdi mdi-account-plus"></i></div>
+                        <p class="notify-details">New user registered.<small class="text-muted">5 hours ago</small></p>
+                    </a>
 
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item notify-item">
-                            <div class="notify-icon bg-danger"><i class="mdi mdi-heart"></i></div>
-                            <p class="notify-details">Carlos Crouch liked <b>Admin</b><small class="text-muted">3 days ago</small></p>
-                        </a>
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                        <div class="notify-icon bg-danger"><i class="mdi mdi-heart"></i></div>
+                        <p class="notify-details">Carlos Crouch liked <b>Admin</b><small class="text-muted">3 days
+                                ago</small></p>
+                    </a>
 
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item notify-item">
-                            <div class="notify-icon bg-warning"><i class="mdi mdi-comment-account-outline"></i></div>
-                            <p class="notify-details">Caleb Flakelar commented on Admin<small class="text-muted">4 days ago</small></p>
-                        </a>
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                        <div class="notify-icon bg-warning"><i class="mdi mdi-comment-account-outline"></i></div>
+                        <p class="notify-details">Caleb Flakelar commented on Admin<small class="text-muted">4 days
+                                ago</small></p>
+                    </a>
 
-                        <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item notify-item">
-                            <div class="notify-icon bg-primary">
-                                <i class="mdi mdi-heart"></i>
-                            </div>
-                            <p class="notify-details">Carlos Crouch liked <b>Admin</b>
-                                <small class="text-muted">13 days ago</small>
-                            </p>
-                        </a>
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                        <div class="notify-icon bg-primary">
+                            <i class="mdi mdi-heart"></i>
+                        </div>
+                        <p class="notify-details">Carlos Crouch liked <b>Admin</b>
+                            <small class="text-muted">13 days ago</small>
+                        </p>
+                    </a>
                 </div>
 
                 <!-- All-->
@@ -93,10 +103,11 @@
         </li>
 
         <li class="dropdown notification-list">
-            <a class="nav-link dropdown-toggle nav-user mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+            <a class="nav-link dropdown-toggle nav-user mr-0" data-toggle="dropdown" href="#" role="button"
+                aria-haspopup="false" aria-expanded="false">
                 <img src="assets\images\users\avatar-1.jpg" alt="user-image" class="rounded-circle">
                 <span class="pro-user-name ml-1">
-                        Maxine K  <i class="mdi mdi-chevron-down"></i>
+                    Maxine K <i class="mdi mdi-chevron-down"></i>
                 </span>
             </a>
             <div class="dropdown-menu dropdown-menu-right profile-dropdown ">

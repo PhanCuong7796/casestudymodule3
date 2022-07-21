@@ -6,63 +6,33 @@
             <img src="assets\images\users\avatar-1.jpg" alt="" class="avatar-md rounded-circle">
         </div>
         <div class="user-info">
-            <a href="#">Stanley Jones</a>
+            <a href="#">Cường Bear</a>
             <p class="text-muted m-0">Administrator</p>
         </div>
     </div>
-
-    <!--- Sidemenu -->
     <div id="sidebar-menu">
 
         <ul class="metismenu" id="side-menu">
 
-            <li class="menu-title">Navigation</li>
+            <li class="menu-title">Trang Chủ Admin</li>
 
             <li>
-                <a href="index.html">
+                <a href="dashboard">
                     <i class="ti-home"></i>
                     <span> Bảng Điều Khiển </span>
                 </a>
             </li>
-
-            {{--  <li>
-                <a href="ui-elements.html">
-                    <i class="ti-paint-bucket"></i>
-                    <span> Quản Lí Sản Phẩm </span>
-                    <span class="badge badge-primary float-right">11</span>
-                </a>
-            </li>  --}}
-
-            <li>
-                <a href="javascript: void(0);">
-                    <i class="ti-light-bulb"></i>
-                    <span> Quản Lí Sản Phẩm </span>
-                    <span class="menu-arrow"></span>
-                </a>
-                <ul class="nav-second-level" aria-expanded="false">
-                    <li><a href="components-range-slider.html">Chi Tiết Sản Phẩm</a></li>
-                    <li><a href="components-alerts.html">Alerts</a></li>
-                    <li><a href="components-icons.html">Icons</a></li>
-                    <li><a href="components-widgets.html">Widgets</a></li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="typography.html">
-                    <i class="ti-spray"></i>
-                    <span> Typography </span>
-                </a>
-            </li>
-
             <li>
                 <a href="javascript: void(0);">
                     <i class="ti-pencil-alt"></i>
-                    <span> Forms </span>
+                    <span> Quản Trị Danh Mục </span>
                     <span class="menu-arrow"></span>
+
                 </a>
+
                 <ul class="nav-second-level" aria-expanded="false">
-                    <li><a href="forms-general.html">General Elements</a></li>
-                    <li><a href="forms-advanced.html">Advanced Form</a></li>
+                    <li><a href="formtable">Loại Danh Mục</a></li>
+                    <li><a href="">Sản Phẩm</a></li>
                 </ul>
             </li>
 
