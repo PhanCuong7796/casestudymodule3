@@ -14,25 +14,25 @@
 
         <ul class="metismenu" id="side-menu">
 
-            <li class="menu-title">Trang Chủ Admin</li>
+            <li class="menu-title">Page Admin</li>
 
             <li>
                 <a href="dashboard">
                     <i class="ti-home"></i>
-                    <span> Bảng Điều Khiển </span>
+                    <span> Dashboard </span>
                 </a>
             </li>
             <li>
                 <a href="javascript: void(0);">
                     <i class="ti-pencil-alt"></i>
-                    <span> Quản Trị Danh Mục </span>
+                    <span> Category </span>
                     <span class="menu-arrow"></span>
 
                 </a>
 
                 <ul class="nav-second-level" aria-expanded="false">
-                    <li><a href="formtable">Loại Danh Mục</a></li>
-                    <li><a href="">Sản Phẩm</a></li>
+                    <li><a href="index">Category Type</a></li>
+                    <li><a href="products">Product</a></li>
                 </ul>
             </li>
 

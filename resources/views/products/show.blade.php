@@ -1,4 +1,4 @@
-@extends('products.layout')
+@extends('master')
 
 @section('content')
     <div class="row">
@@ -21,8 +21,14 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Details:</strong>
-                {{ $product->detail }}
+                <strong>Price:</strong>
+                {{ $product->price }}
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Description:</strong>
+                {{ $product->description }}
             </div>
         </div>
     </div>

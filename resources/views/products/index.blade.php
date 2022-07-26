@@ -1,10 +1,10 @@
-@extends('products.layout')
+@extends('master')
 
 @section('content')
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Laravel 9 CRUD Example from scratch - ItSolutionStuff.com</h2>
+                <h2> List Of Product </h2>
             </div>
             <div class="pull-right">
                 <a class="btn btn-success" href="{{ route('products.create') }}"> Create New Product</a>
@@ -20,16 +20,18 @@
 
     <table class="table table-bordered">
         <tr>
-            <th>No</th>
-            <th>Name</th>
-            <th>Details</th>
-            <th width="280px">Action</th>
+            <th width="10px">#</th>
+            <th width="100px">Name</th>
+            <th width="50px">Price</th>
+            <th width="100px">Description</th>
+            <th width="100px">Action</th>
         </tr>
         @foreach ($products as $product)
         <tr>
             <td>{{ ++$i }}</td>
             <td>{{ $product->name }}</td>
-            <td>{{ $product->detail }}</td>
+            <td>{{ $product->price }}</td>
+            <td>{{ $product->description }}</td>
             <td>
                 <form action="{{ route('products.destroy',$product->id) }}" method="POST">
 
@@ -46,7 +48,5 @@
         </tr>
         @endforeach
     </table>
-
     {!! $products->links() !!}
-
 @endsection

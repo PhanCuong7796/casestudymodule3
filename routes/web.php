@@ -17,8 +17,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('dashboard', function () {
     return view('dashboard');
 });
-
-Route::get('formtable', function () {
-    return view('formtable');
-});
 Route::resource('products', ProductController::class);

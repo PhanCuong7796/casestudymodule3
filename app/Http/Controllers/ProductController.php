@@ -40,12 +40,15 @@ class ProductController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'detail' => 'required',
+            'price' => 'required',
+            'description' => 'required',
+
         ]);
+
         Product::create($request->all());
 
         return redirect()->route('products.index')
-                        ->with('success', 'Product created successfully.');
+            ->with('success', 'Product created successfully.');
     }
 
     /**
@@ -81,26 +84,27 @@ class ProductController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'detail' => 'required',
+            'price' => 'required',
+            'description' => 'required',
         ]);
 
         $product->update($request->all());
 
         return redirect()->route('products.index')
-                        ->with('success', 'Product updated successfully');
+            ->with('success', 'Product updated successfully');
     }
 
     /**
      * Remove the specified resource from storage.
      *
      * @param  \App\Models\Product  $product
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\Response`
      */
     public function destroy(Product $product)
     {
         $product->delete();
 
         return redirect()->route('products.index')
-                        ->with('success', 'Product deleted successfully');
+            ->with('success', 'Product deleted successfully');
     }
 }
